@@ -1,8 +1,4 @@
 # hello-world
-Welcome to Github! Let's dive in it!
+Welcome to my Github!
 
-It's exciting to experience a new world like Github.
-What fantastic world is existing there?
-So much thrill!
-
-
+I'm going to git C#, VB codes in my repo.
