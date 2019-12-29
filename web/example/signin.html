@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dave Lee의 개인 블로그</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+    <script type="text/javascript">
+        function check_password() {
+            var password_text = document.getElementById("inputPassword").value;
+            if (password_text == "korea123") {
+                localStorage.setItem('password', password_text);
+                window.open("index.html", "_self");
+            } else {
+                alert("Access denied! Incorrect password!");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+<form class="form-signin" >
+    <h3 class="form-signin-heading">Password Required</h3>
+    <input type="password" class="form-control" id="inputPassword" onkeydown="javascript:if(event.keyCode == 13) { check_password(); return false;}">
+    <input type="button" class="btn btn-lg btn-primary btn-block" value="Sign In" onclick="check_password();">
+</form>
+
+    </div>
+</body>
+
+</html>
+
