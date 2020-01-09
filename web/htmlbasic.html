@@ -3,7 +3,13 @@
 		<head>
 				<meta charset="utf-8">
 				<title> Nick's website Front Door</title>
-				<link rel="stylesheet" type="text/css" href="css/style.css">
+					<script type="text/javascript">
+						function changeImgClick() {
+							document.getElementById("dimg").src = "clickblue.jpg";
+						}
+
+					</script>
+
 
 			</head>
 		<body>
@@ -17,6 +23,12 @@
 			프로그래밍 입문자 입장에서 매일 추가하는 내용들을 컨텐츠화 할 계획입니다.	
 
 			</p>
+
+				<img src="dimg.png"	id="dimg" onclick="changeImgClick();">
+
+
+
+
 			<hr>
 
 			<h1>제목 크기가 달라집니다.</h1>
