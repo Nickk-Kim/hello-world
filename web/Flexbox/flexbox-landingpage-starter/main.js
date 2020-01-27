@@ -5,4 +5,4 @@ function toggleDropdown() {
     } else {
         navbarToggle.className = 'topnav';
     }
-}
+}   
